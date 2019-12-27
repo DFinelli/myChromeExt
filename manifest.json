@@ -1,0 +1,21 @@
+{
+	// manifest version should always be 2 (version 1 unsuported as of 2014)
+	"manifest_version": 2,
+	"name": "Dan's Test Extension",
+	"version": "1.0",
+
+	"permissions": [
+		"contextMenus"
+	],
+
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+
+	"icons": {
+		"16": "cookie_16.png",
+		"48": "cookie_48.png",
+		"128": "cookie_128.png" }
+
+}
