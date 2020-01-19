@@ -8,7 +8,10 @@
 		"contextMenus"
 	],
 
+
 	"background": {
+		//can have multiple scripts
+		// make one for context menu, etc?
 		"scripts": ["background.js"],
 		"persistent": false
 	},
